@@ -1,26 +1,34 @@
 * {
  font-family: sans-serif;
+ background-color: rgba(65, 63, 61, 0.027);
 }
 
 h1 {
   font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 h2 {
   text-decoration: underline;
   color: darkgray; 
+  text-align: center;
 }
 
 ul.links {
-  background-color: rgb(243, 87, 87);
+  background-color: rgba(243, 87, 87, 0.37);
   font-family: "Times New Roman", sans-serif;
   font-weight: bold;
   width: 15%;
+  margin: 0 auto;
 }
 
 p {
   font-size: 20px;
   font-family: "Lucida Handwriting", sans-serif;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 ul.ingredients,
@@ -30,4 +38,11 @@ p {
 
 .steps {
   background-color: rgb(218, 182, 138);
+}
+
+.image {
+  width: 300px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
 }
